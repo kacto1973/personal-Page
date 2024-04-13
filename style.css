@@ -1,0 +1,60 @@
+.gradient-background {
+    background: linear-gradient(300deg, #2f0ca3, #425cdf, #3178c4);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  @media (max-width: 768px) {  
+    .contenedor-cartas{
+      flex-direction: column;
+    }
+    .card{
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+
+  .header{
+    height: 11vh;
+  }
+  
+.contenedor-cartas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.contenedor-exterior{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 8rem;
+}
+
+.features{
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+
+
